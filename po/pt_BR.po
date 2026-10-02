@@ -5183,7 +5183,7 @@ msgstr ""
 
 #, c-format
 msgid "%sAuthor:    %.*s <%.*s>"
-msgstr "%sAutor:    %.*s <%.*s>"
+msgstr "%sAutor:     %.*s <%.*s>"
 
 #, c-format
 msgid "%sDate:      %s"
@@ -12842,7 +12842,7 @@ msgstr "  URL de Fetch: %s"
 #.
 #, c-format
 msgid "  Push  URL: %s"
-msgstr "  URL de Push: %s"
+msgstr "  URL de  Push: %s"
 
 msgid "(no URL)"
 msgstr "(nenhuma URL)"
@@ -13661,8 +13661,8 @@ msgid ""
 "Run \"git rev-parse --parseopt -h\" for more information on the first usage."
 msgstr ""
 "git rev-parse --parseopt [<options>] -- [<args>...]\n"
-"   ou: git rev-parse --sq-quote [<arg>...]\n"
-"   ou: git rev-parse [<options>] [<arg>...]\n"
+" ou: git rev-parse --sq-quote [<arg>...]\n"
+" ou: git rev-parse [<options>] [<arg>...]\n"
 "\n"
 "Execute \"git rev-parse --parseopt -h\" para mais informações sobre o "
 "primeiro uso."
@@ -21220,7 +21220,7 @@ msgstr "uso: %s"
 #.
 #, c-format
 msgid "   or: %s"
-msgstr "   ou: %s"
+msgstr " ou: %s"
 
 #. TRANSLATORS: You should only need to translate this format
 #. string if your language is a RTL language (e.g. Arabic,
