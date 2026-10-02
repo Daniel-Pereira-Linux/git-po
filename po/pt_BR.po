@@ -178,7 +178,7 @@ msgstr ""
 "reverter o conjunto de alterações preparadas de volta para a versão HEAD"
 
 msgid "pick hunks and update selectively"
-msgstr "escolher trechos e atualizar seletivamente"
+msgstr "escolher pedaços e atualizar seletivamente"
 
 msgid "view diff between HEAD and index"
 msgstr "ver diff entre HEAD e o índice"
@@ -1524,7 +1524,7 @@ msgstr "o pathspec '%s' não corresponde a nenhum arquivo"
 
 #, c-format
 msgid "no such ref: %.*s"
-msgstr "referência inexistente: %.*s"
+msgstr "ref inexistente: %.*s"
 
 #, c-format
 msgid "not a valid object name: %s"
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #, c-format
 msgid "not tracking: ambiguous information for ref '%s'"
-msgstr "sem rastreamento: informação ambígua para o ref '%s'"
+msgstr "sem rastreamento: informação ambígua para a ref '%s'"
 
 #. #-#-#-#-#  branch.c.po  #-#-#-#-#
 #. TRANSLATORS: This is a line listing a remote with duplicate
@@ -1902,7 +1902,7 @@ msgid ""
 "different remotes' fetch refspecs map into different\n"
 "tracking namespaces."
 msgstr ""
-"Existem múltiplos remotos cujos refspecs de fetch mapeiam para o ref\n"
+"Existem múltiplos remotos cujos refspecs de fetch mapeiam para a ref\n"
 "de rastreamento remoto '%s':\n"
 "%s\n"
 "Isso é tipicamente um erro de configuração.\n"
@@ -1926,7 +1926,7 @@ msgstr "já existe um branch chamado '%s'"
 #, c-format
 msgid "cannot force update the branch '%s' used by worktree at '%s'"
 msgstr ""
-"não é possível forçar a atualização do branch '%s' utilizado pelo worktree "
+"não é possível forçar a atualização do branch '%s' utilizado pela worktree "
 "em '%s'"
 
 #, c-format
@@ -1988,7 +1988,7 @@ msgstr "submódulo '%s': não é possível criar o branch '%s'"
 
 #, c-format
 msgid "'%s' is already used by worktree at '%s'"
-msgstr "'%s' já está sendo utilizado pelo worktree em '%s'"
+msgstr "'%s' já está sendo utilizado pela worktree em '%s'"
 
 msgid "git add [<options>] [--] <pathspec>..."
 msgstr "git add [<options>] [--] <pathspec>..."
@@ -2766,7 +2766,7 @@ msgstr "HEAD inválido - ref simbólica estranha"
 
 #, c-format
 msgid "invalid ref: '%s'"
-msgstr "referência inválida: '%s'"
+msgstr "ref inválida: '%s'"
 
 msgid "You need to start by \"git bisect start\"\n"
 msgstr "Você precisa começar por \"git bisect start\"\n"
@@ -3120,11 +3120,11 @@ msgstr "branch '%s' não encontrado"
 
 #, c-format
 msgid "Would delete remote-tracking branch %s (was %s).\n"
-msgstr "Excluiria a branch de rastreamento remoto %s (era %s).\n"
+msgstr "Excluiria o branch de rastreamento remoto %s (era %s).\n"
 
 #, c-format
 msgid "Would delete branch %s (was %s).\n"
-msgstr "Excluiria a branch %s (era %s).\n"
+msgstr "Excluiria o branch %s (era %s).\n"
 
 #, c-format
 msgid "Deleted remote-tracking branch %s (was %s).\n"
@@ -4231,7 +4231,7 @@ msgid "update ignored files (default)"
 msgstr "atualizar arquivos ignorados (padrão)"
 
 msgid "do not check if another worktree is using this branch"
-msgstr "não verificar se outra árvore de trabalho está usando este branch"
+msgstr "não verificar se outra worktree está usando este branch"
 
 msgid "checkout our version for unmerged files"
 msgstr "fazer checkout da nossa versão para arquivos não mesclados"
@@ -4298,7 +4298,7 @@ msgid "create/reset and checkout a branch"
 msgstr "criar/redefinir e fazer checkout de um branch"
 
 msgid "create reflog for new branch"
-msgstr "criar reflog para nova branch"
+msgstr "criar reflog para o novo branch"
 
 msgid "second guess 'git checkout <no-such-branch>' (default)"
 msgstr "tentar adivinhar em 'git checkout <no-such-branch>' (padrão)"
@@ -4540,7 +4540,7 @@ msgid "unable to update %s"
 msgstr "não foi possível atualizar %s"
 
 msgid "failed to initialize sparse-checkout"
-msgstr "falha ao inicializar o checkout esparso"
+msgstr "falha ao inicializar o sparse-checkout"
 
 msgid "remote HEAD refers to nonexistent ref, unable to checkout"
 msgstr ""
@@ -4638,7 +4638,7 @@ msgid "clone tags, and make later fetches not to follow them"
 msgstr "clonar tags e fazer com que fetches posteriores não as sigam"
 
 msgid "any cloned submodules will be shallow"
-msgstr "quaisquer submódulos clonados serão superficiais"
+msgstr "quaisquer submódulos clonados serão rasos"
 
 msgid "gitdir"
 msgstr "gitdir"
@@ -4688,7 +4688,7 @@ msgstr "Você deve especificar um repositório para clonar."
 
 #, c-format
 msgid "unknown ref storage format '%s'"
-msgstr "formato de armazenamento de referência desconhecido '%s'"
+msgstr "formato de armazenamento de refs desconhecido '%s'"
 
 #, c-format
 msgid "repository '%s' does not exist"
@@ -4734,7 +4734,7 @@ msgstr ""
 
 #, c-format
 msgid "'%s' is not a valid remote name"
-msgstr "'%s' não é um nome remoto válido"
+msgstr "'%s' não é um nome de remoto válido"
 
 msgid "--depth is ignored in local clones; use file:// instead."
 msgstr "--depth é ignorado em clones locais; use file:// em vez disso."
@@ -4766,10 +4766,10 @@ msgstr "falha ao inicializar o repositório, ignorando a URI de bundle"
 
 #, c-format
 msgid "failed to fetch objects from bundle URI '%s'"
-msgstr "falha ao buscar objetos da URI de bundle '%s'"
+msgstr "falha ao fazer fetch dos objetos da URI de bundle '%s'"
 
 msgid "failed to fetch advertised bundles"
-msgstr "falha ao buscar os bundles anunciados"
+msgstr "falha ao fazer fetch dos bundles anunciados"
 
 msgid "remote transport reported error"
 msgstr "erro relatado de transporte remoto"
@@ -7058,7 +7058,7 @@ msgid "[tag update]"
 msgstr "[tag atualizada]"
 
 msgid "unable to update local ref"
-msgstr "não foi possível atualizar o ref local"
+msgstr "não foi possível atualizar a ref local"
 
 msgid "would clobber existing tag"
 msgstr "sobrescreveria a tag existente"
@@ -7208,7 +7208,7 @@ msgstr ""
 
 #, c-format
 msgid "fetching ref %s failed: %s"
-msgstr "falha ao buscar a ref %s: %s"
+msgstr "falha ao fazer fetch da ref %s: %s"
 
 msgid "multiple branches detected, incompatible with --set-upstream"
 msgstr "múltiplos branches detectados, incompatível com --set-upstream"
@@ -7288,7 +7288,7 @@ msgid "do not fetch all tags (--no-tags)"
 msgstr "não fazer fetch de todas as tags (--no-tags)"
 
 msgid "number of submodules fetched in parallel"
-msgstr "número de submódulos buscados em paralelo"
+msgstr "número de submódulos com fetch em paralelo"
 
 msgid "modify the refspec to place all refs within refs/prefetch/"
 msgstr ""
@@ -7315,7 +7315,7 @@ msgid "keep downloaded pack"
 msgstr "manter o pack baixado"
 
 msgid "allow updating of HEAD ref"
-msgstr "permitir a atualização do ref HEAD"
+msgstr "permitir a atualização da ref HEAD"
 
 msgid "deepen history of shallow clone"
 msgstr "aprofundar o histórico do clone raso"
@@ -7355,7 +7355,7 @@ msgid "report that we have only objects reachable from this object"
 msgstr "relatar que temos apenas objetos alcançáveis deste objeto"
 
 msgid "ensure this ref is always sent as a negotiation have"
-msgstr "garantir que este ref seja sempre enviado como uma negociação de have"
+msgstr "garantir que esta ref seja sempre enviada como um have da negociação"
 
 msgid "do not fetch a packfile; instead, print ancestors of negotiation tips"
 msgstr ""
@@ -7382,7 +7382,7 @@ msgstr "--unshallow em um repositório completo não faz sentido"
 
 #, c-format
 msgid "failed to fetch bundles from '%s'"
-msgstr "falha ao buscar bundles de '%s'"
+msgstr "falha ao fazer fetch dos bundles de '%s'"
 
 msgid "fetch --all does not take a repository argument"
 msgstr "fetch --all não aceita um argumento de repositório"
@@ -7415,10 +7415,10 @@ msgstr ""
 "extensions.partialclone"
 
 msgid "--atomic can only be used when fetching from one remote"
-msgstr "--atomic só pode ser usado ao buscar de um único remoto"
+msgstr "--atomic só pode ser usado ao fazer fetch de um único remoto"
 
 msgid "--stdin can only be used when fetching from one remote"
-msgstr "--stdin só pode ser usado ao buscar de um único remoto"
+msgstr "--stdin só pode ser usado ao fazer fetch de um único remoto"
 
 msgid ""
 "git fmt-merge-msg [-m <message>] [--log[=<n>] | --no-log] [--file <file>]"
@@ -7486,7 +7486,7 @@ msgid "read reference patterns from stdin"
 msgstr "ler padrões de referência do stdin"
 
 msgid "also include HEAD ref and pseudorefs"
-msgstr "incluir também o ref HEAD e pseudorefs"
+msgstr "incluir também a ref HEAD e as pseudorefs"
 
 msgid "cannot use --start-after with custom sort options"
 msgstr ""
@@ -8277,7 +8277,7 @@ msgid "invalid number of threads specified (%d)"
 msgstr "número inválido de threads especificado (%d)"
 
 msgid "--open-files-in-pager only works on the worktree"
-msgstr "--open-files-in-pager funciona apenas no worktree"
+msgstr "--open-files-in-pager funciona apenas na árvore de trabalho"
 
 msgid "--[no-]exclude-standard cannot be used for tracked contents"
 msgstr "--[no-]exclude-standard não pode ser usado para conteúdos rastreados"
@@ -8500,7 +8500,7 @@ msgstr "falha ao iniciar a transação de refs: %s"
 
 #, c-format
 msgid "failed to update ref '%s': %s"
-msgstr "falha ao atualizar o ref '%s': %s"
+msgstr "falha ao atualizar a ref '%s': %s"
 
 #, c-format
 msgid "failed to commit ref transaction: %s"
@@ -8873,7 +8873,7 @@ msgid "unable to rename temporary '*.%s' file to '%s'"
 msgstr "não foi possível renomear o arquivo temporário '*.%s' para '%s'"
 
 msgid "error while closing pack file"
-msgstr "erro ao fechar o arquivo do pacote"
+msgstr "erro ao fechar o arquivo de pack"
 
 #, c-format
 msgid "bad pack.indexVersion=%<PRIu32>"
@@ -9768,7 +9768,7 @@ msgstr "não é possível lidar com nada além do merge de duas heads."
 
 #, c-format
 msgid "could not resolve ref '%s'"
-msgstr "não foi possível resolver o ref '%s'"
+msgstr "não foi possível resolver a ref '%s'"
 
 #, c-format
 msgid "Merging %s with %s\n"
@@ -11108,7 +11108,7 @@ msgid "handling for missing objects"
 msgstr "tratamento de objetos ausentes"
 
 msgid "do not pack objects in promisor packfiles"
-msgstr "não empacotar objetos em packfiles promisors"
+msgstr "não empacotar objetos em packfiles promisor"
 
 msgid "implies --missing=allow-any"
 msgstr "implica em --missing=allow-any"
@@ -11194,7 +11194,7 @@ msgid "expire objects older than <time>"
 msgstr "expirar objetos mais antigos que <time>"
 
 msgid "limit traversal to objects outside promisor packfiles"
-msgstr "limitar a travessia aos objetos fora dos packfiles promisors"
+msgstr "limitar a travessia aos objetos fora dos packfiles promisor"
 
 msgid "cannot prune in a precious-objects repo"
 msgstr "não é possível fazer prune em um repositório precious-objects"
@@ -11263,8 +11263,8 @@ msgid ""
 "Your configuration specifies to merge with the ref '%s'\n"
 "from the remote, but no such ref was fetched."
 msgstr ""
-"Sua configuração especifica fazer merge com o ref '%s'\n"
-"do remoto, mas esse ref não foi obtido via fetch."
+"Sua configuração especifica fazer merge com a ref '%s'\n"
+"do remoto, mas essa ref não foi obtida via fetch."
 
 #, c-format
 msgid "unable to access commit %s"
@@ -11398,7 +11398,7 @@ msgid "tag shorthand without <tag>"
 msgstr "abreviação de tag sem <tag>"
 
 msgid "--delete only accepts plain target ref names"
-msgstr "--delete aceita apenas nomes de referência de destino simples"
+msgstr "--delete aceita apenas nomes simples de ref de destino"
 
 msgid ""
 "\n"
@@ -11549,10 +11549,8 @@ msgid ""
 "or update a remote ref to make it point at a non-commit object,\n"
 "without using the '--force' option.\n"
 msgstr ""
-"Você não pode atualizar uma referência remota que aponta para um objeto que "
-"não é\n"
-"um commit, nem atualizar uma referência remota para fazê-la apontar para um "
-"objeto\n"
+"Você não pode atualizar uma ref remota que aponta para um objeto que não é\n"
+"um commit, nem atualizar uma ref remota para fazê-la apontar para um objeto\n"
 "que não é um commit, sem usar a opção '--force'.\n"
 
 msgid ""
@@ -11573,7 +11571,7 @@ msgstr "Fazendo push para %s\n"
 
 #, c-format
 msgid "failed to push some refs to '%s'"
-msgstr "falha ao enviar algumas referências para '%s'"
+msgstr "falha ao fazer push de algumas refs para '%s'"
 
 msgid ""
 "recursing into submodule with push.recurseSubmodules=only; using on-demand "
@@ -11605,10 +11603,10 @@ msgid "push all branches"
 msgstr "fazer push de todos os branches"
 
 msgid "mirror all refs"
-msgstr "espelhar todas as referências"
+msgstr "espelhar todas as refs"
 
 msgid "delete refs"
-msgstr "excluir referências"
+msgstr "excluir refs"
 
 msgid "push tags (can't be used with --all or --branches or --mirror)"
 msgstr ""
@@ -11639,7 +11637,7 @@ msgid "set upstream for git pull/status"
 msgstr "configurar upstream para git pull/status"
 
 msgid "prune locally removed refs"
-msgstr "podar referências removidas localmente"
+msgstr "podar refs removidas localmente"
 
 msgid "bypass pre-push hook"
 msgstr "ignorar o hook pre-push"
@@ -11654,7 +11652,7 @@ msgid "request atomic transaction on remote side"
 msgstr "solicitar transação atômica no lado remoto"
 
 msgid "--delete doesn't make sense without any refs"
-msgstr "--delete não faz sentido sem nenhuma referência"
+msgstr "--delete não faz sentido sem nenhuma ref"
 
 #, c-format
 msgid "bad repository '%s'"
@@ -12594,7 +12592,7 @@ msgstr "Atualizando %s"
 
 #, c-format
 msgid "Could not fetch %s"
-msgstr "Não foi possível buscar %s"
+msgstr "Não foi possível fazer fetch de %s"
 
 msgid ""
 "--mirror is dangerous and deprecated; please\n"
@@ -12784,7 +12782,7 @@ msgstr "faz rebase sobre o remoto %s"
 
 #, c-format
 msgid " merges with remote %s"
-msgstr " faz merge com o remote %s"
+msgstr " faz merge com o remoto %s"
 
 #, c-format
 msgid "merges with remote %s"
@@ -12792,7 +12790,7 @@ msgstr "faz merge com o remoto %s"
 
 #, c-format
 msgid "%-*s    and with remote %s\n"
-msgstr "%-*s    e com o remote %s\n"
+msgstr "%-*s    e com o remoto %s\n"
 
 msgid "create"
 msgstr "criar"
@@ -12860,7 +12858,8 @@ msgstr "(desconhecido)"
 #, c-format
 msgid ""
 "  HEAD branch (remote HEAD is ambiguous, may be one of the following):\n"
-msgstr "  branch HEAD (HEAD do remote é ambíguo, pode ser um dos seguintes):\n"
+msgstr ""
+"  branch HEAD (o HEAD do remoto é ambíguo, pode ser um dos seguintes):\n"
 
 #, c-format
 msgid "  Remote branch:%s"
@@ -12927,7 +12926,7 @@ msgstr "Não foi possível excluir %s"
 
 #, c-format
 msgid "Not a valid ref: %s"
-msgstr "referência inválida: %s"
+msgstr "ref inválida: %s"
 
 #, c-format
 msgid "Could not set up %s"
@@ -13438,7 +13437,7 @@ msgid "Tags"
 msgstr "Tags"
 
 msgid "Remotes"
-msgstr "Remotes"
+msgstr "Remotos"
 
 msgid "Others"
 msgstr "Outros"
@@ -14121,7 +14120,7 @@ msgid "check for reference existence without resolving"
 msgstr "verificar a existência da referência sem resolver"
 
 msgid "stricter reference checking, requires exact ref path"
-msgstr "verificação de referência mais rigorosa, requer caminho de ref exato"
+msgstr "verificação de referência mais rigorosa, requer o caminho exato da ref"
 
 msgid "show the HEAD reference, even if it would be filtered out"
 msgstr "mostrar a referência HEAD, mesmo se for filtrada"
@@ -15151,7 +15150,8 @@ msgstr "'%s' já existe e não é um repositório git válido"
 
 #, c-format
 msgid "A git directory for '%s' is found locally with remote(s):\n"
-msgstr "Um diretório git para '%s' foi encontrado localmente com remotes:\n"
+msgstr ""
+"Um diretório git para '%s' foi encontrado localmente com o(s) remoto(s):\n"
 
 #, c-format
 msgid ""
@@ -15895,7 +15895,7 @@ msgstr ""
 
 msgid "checkout <branch> even if already checked out in other worktree"
 msgstr ""
-"fazer checkout do <branch> mesmo se já tiver sido feito checkout em outro "
+"fazer checkout do <branch> mesmo se já tiver sido feito checkout em outra "
 "worktree"
 
 msgid "create a new branch"
@@ -16373,7 +16373,7 @@ msgstr "Um servidor muito simples para repositórios Git"
 
 msgid "Give an object a human readable name based on an available ref"
 msgstr ""
-"Dê a um objeto um nome legível por humanos com base em um ref disponível"
+"Dê a um objeto um nome legível por humanos com base em uma ref disponível"
 
 msgid "Generate a zip archive of diagnostic information"
 msgstr "Gere um arquivo zip de informações de diagnóstico"
@@ -16572,7 +16572,7 @@ msgid "Fetch from and integrate with another repository or a local branch"
 msgstr "Faça fetch e integre com outro repositório ou um branch local"
 
 msgid "Update remote refs along with associated objects"
-msgstr "Atualize os refs remotos junto com os objetos associados"
+msgstr "Atualize as refs remotas junto com os objetos associados"
 
 msgid "Applies a quilt patchset onto the current branch"
 msgstr "Aplica um conjunto de patches quilt no branch atual"
@@ -16593,7 +16593,7 @@ msgid "Manage reflog information"
 msgstr "Gerencie informações do reflog"
 
 msgid "Low-level access to refs"
-msgstr "Acesso de baixo nível aos refs"
+msgstr "Acesso de baixo nível às refs"
 
 msgid "Manage set of tracked repositories"
 msgstr "Gerenciar o conjunto de repositórios rastreados"
@@ -16706,7 +16706,7 @@ msgid "Register file contents in the working tree to the index"
 msgstr "Registre o conteúdo do arquivo na árvore de trabalho para o índice"
 
 msgid "Update the object name stored in a ref safely"
-msgstr "Atualize o nome do objeto armazenado em um ref com segurança"
+msgstr "Atualize com segurança o nome do objeto armazenado em uma ref"
 
 msgid "Update auxiliary info file to help dumb servers"
 msgstr ""
@@ -16728,7 +16728,7 @@ msgid "Check the GPG signature of commits"
 msgstr "Verifique a assinatura GPG dos commits"
 
 msgid "Validate packed Git archive files"
-msgstr "Valide arquivos de pacote do Git"
+msgstr "Valide arquivos de pack do Git"
 
 msgid "Check the GPG signature of tags"
 msgstr "Verifique a assinatura GPG das tags"
@@ -17725,7 +17725,7 @@ msgid "protocol error: expected shallow sha-1, got '%s'"
 msgstr "erro de protocolo: shallow sha-1 esperado, obtido '%s'"
 
 msgid "repository on the other end cannot be shallow"
-msgstr "repositório na outra ponta não pode ser shallow"
+msgstr "o repositório na outra ponta não pode ser raso"
 
 msgid "invalid packet"
 msgstr "pacote inválido"
@@ -18405,7 +18405,7 @@ msgstr "usar os prefixos padrão a/ e b/"
 
 msgid "show context between diff hunks up to the specified number of lines"
 msgstr ""
-"exibir contexto entre os hunks do diff até o número de linhas especificado"
+"exibir contexto entre os pedaços do diff até o número de linhas especificado"
 
 msgid "<char>"
 msgstr "<char>"
@@ -18922,7 +18922,7 @@ msgid "Server supports %s"
 msgstr "O servidor suporta %s"
 
 msgid "Server does not support shallow clients"
-msgstr "O servidor não suporta clientes shallow"
+msgstr "O servidor não suporta clientes rasos"
 
 msgid "Server does not support --shallow-since"
 msgstr "O servidor não suporta --shallow-since"
@@ -18943,7 +18943,7 @@ msgid "git fetch-pack: fetch failed."
 msgstr "git fetch-pack: falha no fetch."
 
 msgid "Server does not support shallow requests"
-msgstr "O servidor não suporta solicitações shallow"
+msgstr "O servidor não suporta solicitações de clone raso"
 
 #, c-format
 msgid "expected '%s', received '%s'"
@@ -20541,17 +20541,17 @@ msgid ""
 "examine these refs and maybe delete them. Turn this message off by\n"
 "running \"git config set advice.objectNameWarning false\""
 msgstr ""
-"O Git normalmente nunca cria um ref que termina com 40 caracteres "
+"O Git normalmente nunca cria uma ref que termina com 40 caracteres "
 "hexadecimais\n"
-"porque ele será ignorado quando você simplesmente especificar 40-hex. Esses "
+"porque ela será ignorada quando você simplesmente especificar 40-hex. Essas "
 "refs\n"
-"podem ser criados por engano. Por exemplo,\n"
+"podem ser criadas por engano. Por exemplo,\n"
 "\n"
 "  git switch -c $br $(git rev-parse ...)\n"
 "\n"
-"onde \"$br\" está vazio de alguma forma e um ref de 40-hex é criado. Por "
+"onde \"$br\" está vazio de alguma forma e uma ref de 40-hex é criada. Por "
 "favor\n"
-"examine esses refs e talvez os exclua. Desative esta mensagem\n"
+"examine essas refs e talvez as exclua. Desative esta mensagem\n"
 "executando \"git config set advice.objectNameWarning false\""
 
 #, c-format
@@ -20665,7 +20665,7 @@ msgstr "o repositório de referência '%s' não é um repositório local."
 
 #, c-format
 msgid "reference repository '%s' is shallow"
-msgstr "o repositório de referência '%s' é shallow"
+msgstr "o repositório de referência '%s' é raso"
 
 #, c-format
 msgid "reference repository '%s' is grafted"
@@ -20677,7 +20677,7 @@ msgstr "não foi possível encontrar o diretório de objetos correspondente a %s
 
 #, c-format
 msgid "invalid line while parsing alternate refs: %s"
-msgstr "linha inválida ao analisar refs alternativos: %s"
+msgstr "linha inválida ao analisar refs alternativas: %s"
 
 #, c-format
 msgid "replacement %s not found for %s"
@@ -20714,7 +20714,7 @@ msgstr "não foi possível colocar o novo arquivo de alternates no lugar"
 msgid ""
 "There are too many unreachable loose objects; run 'git prune' to remove them."
 msgstr ""
-"Existem muitos loose objects inacessíveis; execute 'git prune' para removê-"
+"Existem muitos objetos soltos inalcançáveis; execute 'git prune' para removê-"
 "los."
 
 #, c-format
@@ -22177,11 +22177,11 @@ msgstr "objeto malformado em '%s'"
 
 #, c-format
 msgid "ignoring ref with broken name %s"
-msgstr "ignorando o ref com nome quebrado %s"
+msgstr "ignorando a ref com nome quebrado %s"
 
 #, c-format
 msgid "ignoring broken ref %s"
-msgstr "ignorando o ref quebrado %s"
+msgstr "ignorando a ref quebrada %s"
 
 #, c-format
 msgid "format: %%(end) atom missing"
@@ -22287,11 +22287,11 @@ msgstr "ignorando symref pendente %s"
 
 #, c-format
 msgid "log for ref %s has gap after %s"
-msgstr "o log para o ref %s tem uma lacuna após %s"
+msgstr "o log da ref %s tem uma lacuna após %s"
 
 #, c-format
 msgid "log for ref %s unexpectedly ended on %s"
-msgstr "o log para o ref %s terminou inesperadamente em %s"
+msgstr "o log da ref %s terminou inesperadamente em %s"
 
 #, c-format
 msgid "log for %s is empty"
@@ -22311,14 +22311,14 @@ msgstr "recusando-se a atualizar o reflog com nome inválido '%s'"
 
 #, c-format
 msgid "refusing to update ref with bad name '%s'"
-msgstr "recusando-se a atualizar o ref com nome inválido '%s'"
+msgstr "recusando-se a atualizar a ref com nome inválido '%s'"
 
 msgid "refusing to force and skip creation of reflog"
 msgstr "recusando-se a forçar e pular a criação do reflog"
 
 #, c-format
 msgid "trying to write ref '%s' with nonexistent object %s"
-msgstr "tentando escrever o ref '%s' com objeto inexistente %s"
+msgstr "tentando gravar a ref '%s' com objeto inexistente %s"
 
 #, c-format
 msgid "trying to write non-commit object %s to branch '%s'"
@@ -22326,11 +22326,11 @@ msgstr "tentando escrever o objeto não-commit %s no branch '%s'"
 
 #, c-format
 msgid "update_ref failed for ref '%s': %s"
-msgstr "falha no update_ref para o ref '%s': %s"
+msgstr "falha no update_ref para a ref '%s': %s"
 
 #, c-format
 msgid "multiple updates for ref '%s' not allowed"
-msgstr "múltiplas atualizações para o ref '%s' não permitidas"
+msgstr "múltiplas atualizações para a ref '%s' não são permitidas"
 
 msgid "ref updates forbidden inside quarantine environment"
 msgstr "atualizações de ref proibidas dentro do ambiente de quarentena"
@@ -22354,7 +22354,7 @@ msgstr "não foi possível excluir as referências: %s"
 #, c-format
 msgid "Finished dry-run migration of refs, the result can be found at '%s'\n"
 msgstr ""
-"Concluída a migração dry-run dos refs, o resultado pode ser encontrado em "
+"Concluída a migração dry-run das refs, o resultado pode ser encontrado em "
 "'%s'\n"
 
 #, c-format
@@ -22363,7 +22363,7 @@ msgstr "não foi possível remover o diretório temporário de migração '%s'"
 
 #, c-format
 msgid "migrated refs can be found at '%s'"
-msgstr "refs migrados podem ser encontrados em '%s'"
+msgstr "as refs migradas podem ser encontradas em '%s'"
 
 msgid ""
 "'core.preferSymlinkRefs=true' is nominated for removal.\n"
@@ -22390,8 +22390,8 @@ msgstr ""
 msgid ""
 "cannot lock ref '%s': expected symref with target '%s': but is a regular ref"
 msgstr ""
-"não é possível bloquear o ref '%s': esperado symref com alvo '%s': mas é um "
-"ref regular"
+"não é possível bloquear a ref '%s': esperado symref com alvo '%s', mas é uma "
+"ref comum"
 
 #, c-format
 msgid "trying to write reflog for '%s' with incomplete values"
@@ -22424,12 +22424,12 @@ msgstr ""
 #, c-format
 msgid "cannot lock ref '%s': unable to resolve reference '%s'"
 msgstr ""
-"não foi possível bloquear o ref '%s': não é possível resolver a referência "
+"não foi possível bloquear a ref '%s': não é possível resolver a referência "
 "'%s'"
 
 #, c-format
 msgid "cannot lock ref '%s': error reading reference"
-msgstr "não foi possível bloquear o ref '%s': erro ao ler a referência"
+msgstr "não foi possível bloquear a ref '%s': erro ao ler a referência"
 
 #, c-format
 msgid ""
@@ -22440,21 +22440,21 @@ msgstr ""
 
 #, c-format
 msgid "cannot lock ref '%s': dangling symref already exists"
-msgstr "não foi possível bloquear o ref '%s': já existe um symref pendente"
+msgstr "não foi possível bloquear a ref '%s': já existe um symref pendente"
 
 #, c-format
 msgid "cannot lock ref '%s': reference already exists"
-msgstr "não é possível bloquear o ref '%s': a referência já existe"
+msgstr "não é possível bloquear a ref '%s': a referência já existe"
 
 #, c-format
 msgid "cannot lock ref '%s': reference is missing but expected %s"
 msgstr ""
-"não foi possível bloquear o ref '%s': a referência está ausente, mas era "
+"não foi possível bloquear a ref '%s': a referência está ausente, mas era "
 "esperado %s"
 
 #, c-format
 msgid "cannot lock ref '%s': is at %s but expected %s"
-msgstr "não foi possível bloquear o ref '%s': está em %s, mas era esperado %s"
+msgstr "não foi possível bloquear a ref '%s': está em %s, mas era esperado %s"
 
 #, c-format
 msgid "reftable: transaction prepare: %s"
@@ -22474,7 +22474,7 @@ msgstr "nome de ref %s não encontrado"
 
 #, c-format
 msgid "refname %s is a symbolic ref, copying it is not supported"
-msgstr "nome de ref %s é um ref simbólico, não é suportado copiá-lo"
+msgstr "o nome de ref %s é uma ref simbólica; copiá-la não é suportado"
 
 #, c-format
 msgid "reftable stack for worktree '%s' is broken"
@@ -22669,7 +22669,7 @@ msgstr "URL '%s' usa credenciais de texto simples"
 
 #, c-format
 msgid "Cannot fetch both %s and %s to %s"
-msgstr "Não foi possível buscar %s e %s para %s"
+msgstr "Não é possível fazer fetch de %s e de %s para %s"
 
 #, c-format
 msgid "%s usually tracks %s, not %s"
@@ -22703,16 +22703,16 @@ msgid ""
 "\n"
 "Neither worked, so we gave up. You must fully qualify the ref."
 msgstr ""
-"O destino fornecido não é um nome de referência completo (ou seja,\n"
+"O destino fornecido não é um nome de ref completo (ou seja,\n"
 "começando com \"refs/\"). Tentamos adivinhar o que você quis dizer:\n"
 "\n"
-"- Procurando por uma referência que corresponda a '%s' no lado remoto.\n"
+"- Procurando por uma ref que corresponda a '%s' no lado remoto.\n"
 "- Verificando se o <src> sendo enviado ('%s')\n"
-"  é uma referência em \"refs/{heads,tags}/\". Se sim, adicionamos o prefixo\n"
+"  é uma ref em \"refs/{heads,tags}/\". Se sim, adicionamos o prefixo\n"
 "  refs/{heads,tags}/ correspondente no lado remoto.\n"
 "\n"
 "Nenhum dos dois funcionou, então desistimos. Você deve qualificar totalmente "
-"a referência."
+"a ref."
 
 #, c-format
 msgid ""
@@ -22765,7 +22765,7 @@ msgstr "%s não pode ser resolvido para um branch"
 
 #, c-format
 msgid "unable to delete '%s': remote ref does not exist"
-msgstr "não foi possível excluir '%s': a referência remota não existe"
+msgstr "não foi possível excluir '%s': a ref remota não existe"
 
 #, c-format
 msgid "dst refspec %s matches more than one"
@@ -22811,7 +22811,7 @@ msgstr "não é possível resolver o push 'simple' para um único destino"
 
 #, c-format
 msgid "couldn't find remote ref %s"
-msgstr "não foi possível encontrar a referência remota %s"
+msgstr "não foi possível encontrar a ref remota %s"
 
 #, c-format
 msgid "* Ignoring funny ref '%s' locally"
@@ -24418,7 +24418,7 @@ msgstr ""
 
 #, c-format
 msgid "unknown ref storage format: '%s'"
-msgstr "formato de armazenamento de referência desconhecido '%s'"
+msgstr "formato de armazenamento de refs desconhecido: '%s'"
 
 #, c-format
 msgid ""
@@ -25026,7 +25026,7 @@ msgstr "erro ao executar o fast-import"
 
 #, c-format
 msgid "could not read ref %s"
-msgstr "não foi possível ler o ref %s"
+msgstr "não foi possível ler a ref %s"
 
 #, c-format
 msgid "unknown response to connect: %s"
