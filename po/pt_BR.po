@@ -1425,7 +1425,7 @@ msgid "ensure at least <n> lines of context match"
 msgstr "garantir que pelo menos <n> linhas de contexto correspondam"
 
 msgid "action"
-msgstr "ação"
+msgstr "action"
 
 msgid "detect new or modified lines that have whitespace errors"
 msgstr ""
@@ -1559,25 +1559,25 @@ msgid "empty file name: '%s'"
 msgstr "nome de arquivo vazio: '%s'"
 
 msgid "fmt"
-msgstr "formato"
+msgstr "fmt"
 
 msgid "archive format"
 msgstr "formato do arquivo compactado"
 
 msgid "prefix"
-msgstr "prefixo"
+msgstr "prefix"
 
 msgid "prepend prefix to each pathname in the archive"
 msgstr "prefixar cada caminho no arquivo compactado com o prefixo"
 
 msgid "file"
-msgstr "arquivo"
+msgstr "file"
 
 msgid "add untracked file to archive"
 msgstr "adicionar arquivo não rastreado ao arquivo compactado"
 
 msgid "path:content"
-msgstr "caminho:conteúdo"
+msgstr "path:content"
 
 msgid "write the archive to this file"
 msgstr "escrever o arquivo compactado neste arquivo"
@@ -1589,7 +1589,7 @@ msgid "report archived files on stderr"
 msgstr "reportar arquivos arquivados na stderr"
 
 msgid "time"
-msgstr "tempo"
+msgstr "time"
 
 msgid "set modification time of archive entries"
 msgstr "definir o tempo de modificação das entradas do arquivo compactado"
@@ -1601,13 +1601,13 @@ msgid "list supported archive formats"
 msgstr "listar os formatos de arquivo compactado suportados"
 
 msgid "repo"
-msgstr "repositório"
+msgstr "repo"
 
 msgid "retrieve the archive from remote repository <repo>"
 msgstr "recuperar o arquivo compactado do repositório remoto <repo>"
 
 msgid "command"
-msgstr "comando"
+msgstr "command"
 
 msgid "path to the remote git-upload-archive command"
 msgstr "caminho para o comando remoto git-upload-archive"
@@ -2450,7 +2450,7 @@ msgid "n"
 msgstr "n"
 
 msgid "format"
-msgstr "formato"
+msgstr "format"
 
 msgid "format the patch(es) are in"
 msgstr "formato em que o(s) patch(es) estão"
@@ -2491,7 +2491,7 @@ msgid "use current timestamp for author date"
 msgstr "usar o timestamp atual para a data do autor"
 
 msgid "key-id"
-msgstr "id-da-chave"
+msgstr "key-id"
 
 msgid "GPG-sign commits"
 msgstr "assinar os commits com GPG"
@@ -2982,7 +2982,7 @@ msgid "use <file>'s contents as the final image"
 msgstr "usar o conteúdo de <file> como a imagem final"
 
 msgid "score"
-msgstr "pontuação"
+msgstr "score"
 
 msgid "find line copies within and across files"
 msgstr "encontrar cópias de linha dentro e entre arquivos"
@@ -2991,7 +2991,7 @@ msgid "find line movements within and across files"
 msgstr "encontrar movimentos de linha dentro e entre arquivos"
 
 msgid "range"
-msgstr "intervalo"
+msgstr "range"
 
 msgid "process only line range <start>,<end> or function :<funcname>"
 msgstr ""
@@ -3295,7 +3295,7 @@ msgid "edit the description for the branch"
 msgstr "editar a descrição do branch"
 
 msgid "pattern"
-msgstr "padrão"
+msgstr "pattern"
 
 msgid "delete merged branches whose upstream matches <pattern> (repeatable)"
 msgstr ""
@@ -3325,7 +3325,7 @@ msgid "list branches in columns"
 msgstr "listar branches em colunas"
 
 msgid "object"
-msgstr "objeto"
+msgstr "object"
 
 msgid "print only branches of the object"
 msgstr "imprimir apenas os branches do objeto"
@@ -3481,7 +3481,7 @@ msgstr ""
 "Você pode excluir quaisquer linhas que não deseja compartilhar.\n"
 
 msgid "mode"
-msgstr "modo"
+msgstr "mode"
 
 msgid ""
 "create an additional zip archive of detailed diagnostics (default 'stats')"
@@ -4210,7 +4210,7 @@ msgid "perform a 3-way merge with the new branch"
 msgstr "realizar um merge de 3 vias com o novo branch"
 
 msgid "style"
-msgstr "estilo"
+msgstr "style"
 
 msgid "conflict style (merge, diff3, or zdiff3)"
 msgstr "estilo de conflito (merge, diff3 ou zdiff3)"
@@ -4581,7 +4581,7 @@ msgid "setup as shared repository"
 msgstr "configurar como repositório compartilhado"
 
 msgid "pathspec"
-msgstr "especificação de caminho"
+msgstr "pathspec"
 
 msgid "initialize submodules in the clone"
 msgstr "inicializar submódulos no clone"
@@ -4590,7 +4590,7 @@ msgid "number of submodules cloned in parallel"
 msgstr "número de submódulos clonados em paralelo"
 
 msgid "template-directory"
-msgstr "diretório de modelo"
+msgstr "template-directory"
 
 msgid "directory from which templates will be used"
 msgstr "diretório a partir do qual os modelos serão usados"
@@ -4602,7 +4602,7 @@ msgid "use --reference only while cloning"
 msgstr "use --reference apenas durante a clonagem"
 
 msgid "name"
-msgstr "nome"
+msgstr "name"
 
 msgid "use <name> instead of 'origin' to track upstream"
 msgstr "usar <name> em vez de 'origin' para rastrear o upstream"
@@ -4617,7 +4617,7 @@ msgid "path to git-upload-pack on the remote"
 msgstr "caminho para o git-upload-pack no remoto"
 
 msgid "depth"
-msgstr "profundidade"
+msgstr "depth"
 
 msgid "create a shallow clone of that depth"
 msgstr "criar um clone raso dessa profundidade"
@@ -4626,7 +4626,7 @@ msgid "create a shallow clone since a specific time"
 msgstr "criar um clone raso desde um horário específico"
 
 msgid "ref"
-msgstr "referência"
+msgstr "ref"
 
 msgid "deepen history of shallow clone, excluding ref"
 msgstr "aprofundar o histórico do clone raso, excluindo ref"
@@ -4650,13 +4650,13 @@ msgid "specify the reference format to use"
 msgstr "especificar o formato de referência a ser usado"
 
 msgid "key=value"
-msgstr "chave=valor"
+msgstr "key=value"
 
 msgid "set config inside the new repository"
 msgstr "definir configuração dentro do novo repositório"
 
 msgid "server-specific"
-msgstr "específico do servidor"
+msgstr "server-specific"
 
 msgid "option to transmit"
 msgstr "opção a ser transmitida"
@@ -4929,13 +4929,13 @@ msgid "git commit-tree: failed to close '%s'"
 msgstr "git commit-tree: falha ao fechar '%s'"
 
 msgid "parent"
-msgstr "pai"
+msgstr "parent"
 
 msgid "id of a parent commit object"
 msgstr "id de um objeto de commit pai"
 
 msgid "message"
-msgstr "mensagem"
+msgstr "message"
 
 msgid "commit message"
 msgstr "mensagem de commit"
@@ -5270,7 +5270,7 @@ msgid "compute full ahead/behind values"
 msgstr "computar valores completos de ahead/behind"
 
 msgid "version"
-msgstr "versão"
+msgstr "version"
 
 msgid "machine-readable output"
 msgstr "saída legível por máquina"
@@ -5294,7 +5294,7 @@ msgstr ""
 "(Padrão: traditional)"
 
 msgid "when"
-msgstr "quando"
+msgstr "when"
 
 msgid ""
 "ignore changes to submodules, optional when: all, dirty, untracked. "
@@ -5329,13 +5329,13 @@ msgid "read message from file"
 msgstr "ler mensagem de um arquivo"
 
 msgid "author"
-msgstr "autor"
+msgstr "author"
 
 msgid "override author for commit"
 msgstr "substituir autor do commit"
 
 msgid "date"
-msgstr "data"
+msgstr "date"
 
 msgid "override date for commit"
 msgstr "substituir data do commit"
@@ -5541,7 +5541,7 @@ msgid "Type"
 msgstr "Tipo"
 
 msgid "type"
-msgstr "tipo"
+msgstr "type"
 
 msgid "value is given this type"
 msgstr "o valor é deste tipo"
@@ -5716,7 +5716,7 @@ msgid "show config matching the given URL"
 msgstr "mostrar configuração que corresponda à URL fornecida"
 
 msgid "value"
-msgstr "valor"
+msgstr "value"
 
 msgid "use default value when missing entry"
 msgstr "usar valor padrão quando a entrada estiver ausente"
@@ -6008,7 +6008,7 @@ msgid "show abbreviated commit object as fallback"
 msgstr "mostrar objeto commit abreviado como alternativa"
 
 msgid "mark"
-msgstr "marca"
+msgstr "mark"
 
 msgid "append <mark> on dirty working tree (default: \"-dirty\")"
 msgstr "acrescentar <mark> em árvore de trabalho suja (padrão: \"-dirty\")"
@@ -6181,7 +6181,7 @@ msgid "use symlinks in dir-diff mode"
 msgstr "usar links simbólicos no modo dir-diff"
 
 msgid "tool"
-msgstr "ferramenta"
+msgstr "tool"
 
 msgid "use the specified diff tool"
 msgstr "usar a ferramenta de diff especificada"
@@ -6400,7 +6400,7 @@ msgid "anonymize output"
 msgstr "anonimizar a saída"
 
 msgid "from:to"
-msgstr "de:para"
+msgstr "from:to"
 
 msgid "convert <from> to <to> in anonymized output"
 msgstr "converter <from> para <to> na saída anonimizada"
@@ -7303,7 +7303,7 @@ msgstr ""
 "tags alteradas"
 
 msgid "on-demand"
-msgstr "sob demanda"
+msgstr "on-demand"
 
 msgid "control recursive fetching of submodules"
 msgstr "controlar o fetch recursivo de submódulos"
@@ -7349,7 +7349,7 @@ msgid "specify fetch refmap"
 msgstr "especificar refmap de fetch"
 
 msgid "revision"
-msgstr "revisão"
+msgstr "revision"
 
 msgid "report that we have only objects reachable from this object"
 msgstr "relatar que temos apenas objetos alcançáveis deste objeto"
@@ -7432,7 +7432,7 @@ msgid "alias for --log (deprecated)"
 msgstr "alias para --log (obsoleto)"
 
 msgid "text"
-msgstr "texto"
+msgstr "text"
 
 msgid "use <text> as start of message"
 msgstr "usar <text> como início da mensagem"
@@ -7459,7 +7459,7 @@ msgid "show only <n> matched refs"
 msgstr "mostrar apenas <n> refs correspondentes"
 
 msgid "marker"
-msgstr "marcador"
+msgstr "marker"
 
 msgid "start iteration after the provided marker"
 msgstr "iniciar iteração após o marcador fornecido"
@@ -7505,7 +7505,7 @@ msgid "git for-each-repo --config=<config> [--] <arguments>"
 msgstr "git for-each-repo --config=<config> [--] <arguments>"
 
 msgid "config"
-msgstr "configuração"
+msgstr "config"
 
 msgid "config key storing a list of repository paths"
 msgstr "chave de configuração armazenando uma lista de caminhos de repositório"
@@ -7942,7 +7942,7 @@ msgid "perform maintenance in the background"
 msgstr "realizar manutenção em segundo plano"
 
 msgid "frequency"
-msgstr "frequência"
+msgstr "frequency"
 
 msgid "run tasks based on frequency"
 msgstr "executar tarefas com base na frequência"
@@ -7951,7 +7951,7 @@ msgid "do not report progress or other information over stderr"
 msgstr "não relatar progresso ou outras informações via stderr"
 
 msgid "task"
-msgstr "tarefa"
+msgstr "task"
 
 msgid "run a specific task"
 msgstr "executar uma tarefa específica"
@@ -8059,7 +8059,7 @@ msgid "git maintenance start [--scheduler=<scheduler>]"
 msgstr "git maintenance start [--scheduler=<scheduler>]"
 
 msgid "scheduler"
-msgstr "agendador"
+msgstr "scheduler"
 
 msgid "scheduler to trigger git maintenance run"
 msgstr "agendador para acionar a execução do git maintenance"
@@ -8961,7 +8961,7 @@ msgstr ""
 "         [--shared[=<permissions>]] [<directory>]"
 
 msgid "permissions"
-msgstr "permissões"
+msgstr "permissions"
 
 msgid "specify that the git repository is to be shared amongst several users"
 msgstr ""
@@ -9030,7 +9030,7 @@ msgid "trim empty trailers"
 msgstr "remover trailers vazios"
 
 msgid "placement"
-msgstr "posicionamento"
+msgstr "placement"
 
 msgid "where to place the new trailer"
 msgstr "onde colocar o novo trailer"
@@ -9338,13 +9338,13 @@ msgid "Messaging"
 msgstr "Mensagens"
 
 msgid "header"
-msgstr "cabeçalho"
+msgstr "header"
 
 msgid "add email header"
 msgstr "adicionar cabeçalho de e-mail"
 
 msgid "email"
-msgstr "e-mail"
+msgstr "email"
 
 msgid "add To: header"
 msgstr "adicionar cabeçalho To:"
@@ -9365,7 +9365,7 @@ msgid "make first mail a reply to <message-id>"
 msgstr "tornar o primeiro e-mail uma resposta a <message-id>"
 
 msgid "boundary"
-msgstr "limite"
+msgstr "boundary"
 
 msgid "attach the patch"
 msgstr "anexar o patch"
@@ -9377,7 +9377,7 @@ msgid "enable message threading, styles: shallow, deep"
 msgstr "habilitar encadeamento de mensagens, estilos: shallow, deep"
 
 msgid "signature"
-msgstr "assinatura"
+msgstr "signature"
 
 msgid "add a signature"
 msgstr "adicionar uma assinatura"
@@ -9660,7 +9660,7 @@ msgid "disable charset re-coding of metadata"
 msgstr "desativar re-codificação de charset de metadados"
 
 msgid "encoding"
-msgstr "codificação"
+msgstr "encoding"
 
 msgid "re-code metadata to this encoding"
 msgstr "re-codificar metadados para esta codificação"
@@ -9818,7 +9818,7 @@ msgid "specify a merge-base for the merge"
 msgstr "especificar uma merge-base para o merge"
 
 msgid "option=value"
-msgstr "opção=valor"
+msgstr "option=value"
 
 msgid "option for selected merge strategy"
 msgstr "opção para a estratégia de merge selecionada"
@@ -9891,7 +9891,7 @@ msgid "verify that the named commit has a valid GPG signature"
 msgstr "verificar se o commit nomeado tem uma assinatura GPG válida"
 
 msgid "strategy"
-msgstr "estratégia"
+msgstr "strategy"
 
 msgid "merge strategy to use"
 msgstr "estratégia de merge a ser usada"
@@ -10191,7 +10191,7 @@ msgid "object directory is not an alternate of the current repository: '%s'"
 msgstr "o diretório de objetos não é um alternate do repositório atual: '%s'"
 
 msgid "directory"
-msgstr "diretório"
+msgstr "directory"
 
 msgid "object directory containing set of packfile and pack-index pairs"
 msgstr ""
@@ -10398,7 +10398,7 @@ msgid "how revs are processed"
 msgstr "como os revs são processados"
 
 msgid "notes"
-msgstr "notas"
+msgstr "notes"
 
 msgid "display notes for pretty format"
 msgstr "exibir notas para formato pretty"
@@ -11117,7 +11117,7 @@ msgid "respect islands during delta compression"
 msgstr "respeitar islands durante a compressão delta"
 
 msgid "protocol"
-msgstr "protocolo"
+msgstr "protocol"
 
 msgid "exclude any configured uploadpack.blobpackfileuri with this protocol"
 msgstr ""
@@ -11597,7 +11597,7 @@ msgid "Did you mean to use: git push %s %s?"
 msgstr "Você quis dizer: git push %s %s?"
 
 msgid "repository"
-msgstr "repositório"
+msgstr "repository"
 
 msgid "push all branches"
 msgstr "fazer push de todos os branches"
@@ -11728,7 +11728,7 @@ msgid "passed to 'git log'"
 msgstr "passado para o 'git log'"
 
 msgid "size"
-msgstr "tamanho"
+msgstr "size"
 
 msgid "maximum memory for cost matrix (default 4G)"
 msgstr "memória máxima para a matriz de custos (padrão 4G)"
@@ -12046,7 +12046,7 @@ msgid "use the given merge strategy"
 msgstr "usar a estratégia de merge fornecida"
 
 msgid "option"
-msgstr "opção"
+msgstr "option"
 
 msgid "pass the argument through to the merge strategy"
 msgstr "passar o argumento para a estratégia de merge"
@@ -12475,7 +12475,7 @@ msgid "failed to look up reference"
 msgstr "falha ao procurar referência"
 
 msgid "reason"
-msgstr "motivo"
+msgstr "reason"
 
 msgid "reason of the update"
 msgstr "motivo da atualização"
@@ -13025,7 +13025,7 @@ msgid "same as -a, pack unreachable cruft objects separately"
 msgstr "o mesmo que -a, empacota objetos cruft inacessíveis separadamente"
 
 msgid "approxidate"
-msgstr "data aproximada"
+msgstr "approxidate"
 
 msgid "with --cruft, expire objects older than this"
 msgstr "com --cruft, expirar objetos mais antigos que este"
@@ -13933,7 +13933,7 @@ msgid "linewrap output"
 msgstr "quebrar linhas na saída"
 
 msgid "field"
-msgstr "campo"
+msgstr "field"
 
 msgid "group by field"
 msgstr "agrupar por campo"
@@ -14426,7 +14426,7 @@ msgid "attempt to recreate the index"
 msgstr "tentar recriar o índice"
 
 msgid "label"
-msgstr "rótulo"
+msgstr "label"
 
 msgid "label for the upstream side in conflict markers"
 msgstr "rótulo para o lado upstream em marcadores de conflito"
@@ -15700,7 +15700,7 @@ msgid "git url-parse [-c <component>] [--] <url>..."
 msgstr "git url-parse [-c <component>] [--] <url>..."
 
 msgid "component"
-msgstr "componente"
+msgstr "component"
 
 msgid "which URL component to extract"
 msgstr "qual componente da URL extrair"
@@ -16259,69 +16259,69 @@ msgid "invalid color value: %.*s"
 msgstr "valor de cor inválido: %.*s"
 
 msgid "Add file contents to the index"
-msgstr "Adicionar conteúdo do arquivo ao índice"
+msgstr "Adicione conteúdo do arquivo ao índice"
 
 msgid "Apply a series of patches from a mailbox"
-msgstr "Aplicar uma série de patches a partir de uma mailbox"
+msgstr "Aplique uma série de patches a partir de uma mailbox"
 
 msgid "Annotate file lines with commit information"
-msgstr "Anotar as linhas do arquivo com informações do commit"
+msgstr "Anote as linhas do arquivo com informações do commit"
 
 msgid "Apply a patch to files and/or to the index"
-msgstr "Aplicar um patch a arquivos e/ou ao índice"
+msgstr "Aplique um patch a arquivos e/ou ao índice"
 
 msgid "Import a GNU Arch repository into Git"
-msgstr "Importar um repositório GNU Arch para o Git"
+msgstr "Importe um repositório GNU Arch para o Git"
 
 msgid "Create an archive of files from a named tree"
-msgstr "Criar um archive de arquivos a partir de uma tree nomeada"
+msgstr "Crie um archive de arquivos a partir de uma tree nomeada"
 
 msgid "Download missing objects in a partial clone"
-msgstr "Baixar objetos ausentes em um clone parcial"
+msgstr "Baixe objetos ausentes em um clone parcial"
 
 msgid "Use binary search to find the commit that introduced a bug"
-msgstr "Usar busca binária para encontrar o commit que introduziu um bug"
+msgstr "Use busca binária para encontrar o commit que introduziu um bug"
 
 msgid "Show what revision and author last modified each line of a file"
 msgstr ""
-"Mostrar qual revisão e autor modificou pela última vez cada linha de um "
+"Mostre qual revisão e autor modificou pela última vez cada linha de um "
 "arquivo"
 
 msgid "List, create, or delete branches"
 msgstr "Listar, criar ou excluir branches"
 
 msgid "Collect information for user to file a bug report"
-msgstr "Coletar informações para o usuário relatar um bug"
+msgstr "Colete informações para o usuário relatar um bug"
 
 msgid "Move objects and refs by archive"
-msgstr "Mover objetos e refs por archive"
+msgstr "Mova objetos e refs por archive"
 
 msgid "Provide contents or details of repository objects"
-msgstr "Fornecer conteúdo ou detalhes dos objetos do repositório"
+msgstr "Forneça conteúdo ou detalhes dos objetos do repositório"
 
 msgid "Display gitattributes information"
-msgstr "Exibir informações do gitattributes"
+msgstr "Exiba informações do gitattributes"
 
 msgid "Debug gitignore / exclude files"
-msgstr "Depurar arquivos gitignore / exclude"
+msgstr "Depure arquivos gitignore / exclude"
 
 msgid "Show canonical names and email addresses of contacts"
-msgstr "Mostrar nomes e endereços de e-mail canônicos dos contatos"
+msgstr "Mostre nomes e endereços de e-mail canônicos dos contatos"
 
 msgid "Ensures that a reference name is well formed"
-msgstr "Garante que um nome de referência seja bem formado"
+msgstr "Garanta que um nome de referência seja bem formado"
 
 msgid "Switch branches or restore working tree files"
 msgstr "Alterne entre branches ou restaure arquivos da árvore de trabalho"
 
 msgid "Copy files from the index to the working tree"
-msgstr "Copiar arquivos do índice para a árvore de trabalho"
+msgstr "Copie arquivos do índice para a árvore de trabalho"
 
 msgid "Find commits yet to be applied to upstream"
-msgstr "Encontrar commits ainda a serem aplicados no upstream"
+msgstr "Encontre commits ainda a serem aplicados no upstream"
 
 msgid "Apply the changes introduced by some existing commits"
-msgstr "Aplicar as alterações introduzidas por alguns commits existentes"
+msgstr "Aplique as alterações introduzidas por alguns commits existentes"
 
 msgid "Graphical alternative to git-commit"
 msgstr "Alternativa gráfica para o git-commit"
@@ -16330,28 +16330,28 @@ msgid "Remove untracked files from the working tree"
 msgstr "Remova arquivos não rastreados da árvore de trabalho"
 
 msgid "Clone a repository into a new directory"
-msgstr "Clonar um repositório em um novo diretório"
+msgstr "Clone um repositório em um novo diretório"
 
 msgid "Display data in columns"
-msgstr "Exibir dados em colunas"
+msgstr "Exiba dados em colunas"
 
 msgid "Record changes to the repository"
 msgstr "Registre alterações no repositório"
 
 msgid "Write and verify Git commit-graph files"
-msgstr "Escrever e verificar arquivos commit-graph do Git"
+msgstr "Escreva e verifique arquivos commit-graph do Git"
 
 msgid "Create a new commit object"
-msgstr "Criar um novo objeto de commit"
+msgstr "Crie um novo objeto de commit"
 
 msgid "Get and set repository or global options"
-msgstr "Obter e definir opções do repositório ou globais"
+msgstr "Obtenha e defina opções do repositório ou globais"
 
 msgid "Count unpacked number of objects and their disk consumption"
-msgstr "Contar número de objetos descompactados e seu consumo de disco"
+msgstr "Conte número de objetos descompactados e seu consumo de disco"
 
 msgid "Retrieve and store user credentials"
-msgstr "Recuperar e armazenar credenciais de usuário"
+msgstr "Recupere e armazene credenciais de usuário"
 
 msgid "Helper to temporarily store passwords in memory"
 msgstr "Auxiliar para armazenar temporariamente senhas na memória"
@@ -16360,7 +16360,7 @@ msgid "Helper to store credentials on disk"
 msgstr "Auxiliar para armazenar credenciais no disco"
 
 msgid "Export a single commit to a CVS checkout"
-msgstr "Exportar um único commit para um checkout do CVS"
+msgstr "Exporte um único commit para um checkout do CVS"
 
 msgid "Salvage your data out of another SCM people love to hate"
 msgstr "Resgate seus dados de outro SCM que as pessoas amam odiar"
@@ -16382,17 +16382,17 @@ msgid "Show changes between commits, commit and working tree, etc"
 msgstr "Mostre alterações entre commits, commit e árvore de trabalho, etc"
 
 msgid "Compares files in the working tree and the index"
-msgstr "Compara arquivos na árvore de trabalho e no índice"
+msgstr "Compare arquivos na árvore de trabalho e no índice"
 
 msgid "Compare a tree to the working tree or index"
-msgstr "Comparar uma árvore com a árvore de trabalho ou o índice"
+msgstr "Compare uma árvore com a árvore de trabalho ou o índice"
 
 msgid "Compare the content and mode of provided blob pairs"
 msgstr "Compare o conteúdo e o modo dos pares de blob fornecidos"
 
 msgid "Compares the content and mode of blobs found via two tree objects"
 msgstr ""
-"Compara o conteúdo e o modo de blobs encontrados através de dois objetos tree"
+"Compare o conteúdo e o modo de blobs encontrados através de dois objetos tree"
 
 msgid "Show changes using common diff tools"
 msgstr "Mostre as alterações usando ferramentas comuns de diff"
@@ -16410,7 +16410,7 @@ msgid "Receive missing objects from another repository"
 msgstr "Receba objetos ausentes de outro repositório"
 
 msgid "Rewrite branches"
-msgstr "Reescrever branches"
+msgstr "Reescreva branches"
 
 msgid "Produce a merge commit message"
 msgstr "Produza uma mensagem de commit de merge"
@@ -16428,7 +16428,7 @@ msgid "EXPERIMENTAL: Pretty format revisions on demand"
 msgstr "EXPERIMENTAL: Formate as revisões amigavelmente sob demanda"
 
 msgid "Verifies the connectivity and validity of the objects in the database"
-msgstr "Verifica a conectividade e a validade dos objetos no banco de dados"
+msgstr "Verifique a conectividade e a validade dos objetos no banco de dados"
 
 msgid "Cleanup unnecessary files and optimize the local repository"
 msgstr "Limpe arquivos desnecessários e otimize o repositório local"
@@ -16492,7 +16492,7 @@ msgid "Show information about files in the index and the working tree"
 msgstr "Mostre informações sobre os arquivos no índice e na árvore de trabalho"
 
 msgid "List references in a remote repository"
-msgstr "Listar referências em um repositório remoto"
+msgstr "Liste referências em um repositório remoto"
 
 msgid "List the contents of a tree object"
 msgstr "Liste o conteúdo de um objeto tree"
@@ -16530,7 +16530,7 @@ msgstr ""
 "conflitos de merge"
 
 msgid "Creates a tag object with extra validation"
-msgstr "Cria um objeto tag com validação extra"
+msgstr "Crie um objeto tag com validação extra"
 
 msgid "Build a tree-object from ls-tree formatted text"
 msgstr "Construa um objeto tree a partir de texto formatado pelo ls-tree"
@@ -16554,7 +16554,7 @@ msgid "Create a packed archive of objects"
 msgstr "Crie um arquivo empacotado de objetos"
 
 msgid "Find redundant pack files"
-msgstr "Encontrar arquivos de pack redundantes"
+msgstr "Encontre arquivos de pack redundantes"
 
 msgid "Pack heads and tags for efficient repository access"
 msgstr "Empacote heads e tags para acesso eficiente ao repositório"
@@ -16575,7 +16575,7 @@ msgid "Update remote refs along with associated objects"
 msgstr "Atualize as refs remotas junto com os objetos associados"
 
 msgid "Applies a quilt patchset onto the current branch"
-msgstr "Aplica um conjunto de patches quilt no branch atual"
+msgstr "Aplique um conjunto de patches quilt no branch atual"
 
 msgid "Compare two commit ranges (e.g. two versions of a branch)"
 msgstr "Compare dois intervalos de commit (por ex., duas versões de um branch)"
@@ -16596,7 +16596,7 @@ msgid "Low-level access to refs"
 msgstr "Acesso de baixo nível às refs"
 
 msgid "Manage set of tracked repositories"
-msgstr "Gerenciar o conjunto de repositórios rastreados"
+msgstr "Gerencie o conjunto de repositórios rastreados"
 
 msgid "Pack unpacked objects in a repository"
 msgstr "Empacote objetos desempacotados em um repositório"
@@ -16613,7 +16613,7 @@ msgid "Retrieve information about the repository"
 msgstr "Recupere informações sobre o repositório"
 
 msgid "Generates a summary of pending changes"
-msgstr "Gera um resumo das alterações pendentes"
+msgstr "Gere um resumo das alterações pendentes"
 
 msgid "Reuse recorded resolution of conflicted merges"
 msgstr "Reutilize a resolução registrada de merges com conflito"
@@ -16625,7 +16625,7 @@ msgid "Restore working tree files"
 msgstr "Restaure arquivos da árvore de trabalho"
 
 msgid "Lists commit objects in reverse chronological order"
-msgstr "Lista os objetos de commit em ordem cronológica inversa"
+msgstr "Liste os objetos de commit em ordem cronológica inversa"
 
 msgid "Pick out and massage parameters"
 msgstr "Escolha e processe parâmetros"
@@ -16664,7 +16664,7 @@ msgid "Show packed archive index"
 msgstr "Mostre o índice de arquivo empacotado"
 
 msgid "List references in a local repository"
-msgstr "Listar referências em um repositório local"
+msgstr "Liste referências em um repositório local"
 
 msgid "Reduce your working tree to a subset of tracked files"
 msgstr "Reduza sua árvore de trabalho a um subconjunto dos arquivos rastreados"
@@ -16688,7 +16688,7 @@ msgid "Bidirectional operation between a Subversion repository and Git"
 msgstr "Operação bidirecional entre um repositório Subversion e o Git"
 
 msgid "Switch branches"
-msgstr "Alternar entre branches"
+msgstr "Alterne entre branches"
 
 msgid "Read, modify and delete symbolic refs"
 msgstr "Leia, modifique e exclua refs simbólicos"
@@ -16697,7 +16697,7 @@ msgid "Create, list, delete or verify tags"
 msgstr "Crie, liste, exclua ou verifique tags"
 
 msgid "Creates a temporary file with a blob's contents"
-msgstr "Cria um arquivo temporário com o conteúdo de um blob"
+msgstr "Crie um arquivo temporário com o conteúdo de um blob"
 
 msgid "Unpack objects from a packed archive"
 msgstr "Desempacote objetos de um arquivo empacotado"
@@ -16740,7 +16740,7 @@ msgid "Show logs with differences each commit introduces"
 msgstr "Mostre logs com as diferenças que cada commit introduz"
 
 msgid "Manage multiple working trees"
-msgstr "Gerenciar múltiplas árvores de trabalho"
+msgstr "Gerencie múltiplas árvores de trabalho"
 
 msgid "Create a tree object from the current index"
 msgstr "Crie um objeto tree a partir do índice atual"
@@ -16797,7 +16797,7 @@ msgid "Hooks used by Git"
 msgstr "Hooks usados pelo Git"
 
 msgid "Specifies intentionally untracked files to ignore"
-msgstr "Especifica arquivos não rastreados intencionalmente para ignorar"
+msgstr "Especifique arquivos não rastreados intencionalmente para ignorar"
 
 msgid "The Git repository browser"
 msgstr "O navegador de repositório do Git"
@@ -21257,7 +21257,7 @@ msgid "opposite of --no-%s"
 msgstr "o oposto de --no-%s"
 
 msgid "expiry-date"
-msgstr "data-de-expiração"
+msgstr "expiry-date"
 
 msgid "no-op (backward compatibility)"
 msgstr "no-op (compatibilidade com versões anteriores)"
@@ -22196,7 +22196,7 @@ msgid "option `%s' must point to a commit"
 msgstr "a opção `%s' deve apontar para um commit"
 
 msgid "key"
-msgstr "chave"
+msgstr "key"
 
 msgid "field name to sort on"
 msgstr "nome do campo para ordenar"
@@ -23377,7 +23377,7 @@ msgid "scalar verbose [-v | --verbose] [--build-options]"
 msgstr "scalar verbose [-v | --verbose] [--build-options]"
 
 msgid "-C requires a <directory>"
-msgstr "-C requer um <diretório>"
+msgstr "-C requer um <directory>"
 
 #, c-format
 msgid "could not change to '%s'"
@@ -24940,14 +24940,14 @@ msgid "immediately exit upon the first failed test"
 msgstr "sair imediatamente no primeiro teste que falhar"
 
 msgid "suite[::test]"
-msgstr "suíte[::teste]"
+msgstr "suite[::test]"
 
 msgid "run only test suite or individual test <suite[::test]>"
 msgstr ""
 "executar apenas a suíte de testes ou o teste individual <suite[::test]>"
 
 msgid "suite"
-msgstr "suíte"
+msgstr "suite"
 
 msgid "exclude test suite <suite>"
 msgstr "excluir a suíte de testes <suite>"
@@ -26400,7 +26400,7 @@ msgstr "erro: não foi possível extrair um endereço válido de: %s\n"
 #. translation. The program will only accept English input
 #. at this point.
 msgid "What to do with this address? ([q]uit|[d]rop|[e]dit): "
-msgstr "O que fazer com este endereço? ([q]uit|[d]rop|[e]dit): "
+msgstr "O que fazer com este endereço? ([q]sair|[d]descartar|[e]ditar): "
 
 #, perl-format
 msgid "CA path \"%s\" does not exist"
@@ -26437,7 +26437,7 @@ msgstr ""
 #. translation. The program will only accept English input
 #. at this point.
 msgid "Send this email? ([y]es|[n]o|[e]dit|[q]uit|[a]ll): "
-msgstr "Enviar este e-mail? ([y]es|[n]o|[e]dit|[q]uit|[a]ll): "
+msgstr "Enviar este e-mail? ([y]sim|[n]ão|[e]ditar|[q]sair|[a]todos): "
 
 msgid "Send this email reply required"
 msgstr "Enviar este e-mail (resposta exigida)"
