@@ -26569,25 +26569,3 @@ msgstr "Ignorando %s com sufixo de backup '%s'.\n"
 #, perl-format
 msgid "Do you really want to send %s? [y|N]: "
 msgstr "Você realmente deseja enviar %s? [y|N]: "
-
-#~ msgid "The now-empty commit has been dropped -- cannot amend."
-#~ msgstr ""
-#~ "O commit, agora vazio, foi descartado -- não é possível fazer amend."
-
-#~ msgid "You are in the middle of an am session -- cannot amend."
-#~ msgstr ""
-#~ "Você está no meio de uma sessão de am -- não é possível fazer amend."
-
-#~ msgid "You are resolving conflicts during a rebase -- cannot amend."
-#~ msgstr ""
-#~ "Você está resolvendo conflitos durante um rebase -- não é possível fazer "
-#~ "amend."
-
-#~ msgid "cannot do a partial commit during an am session."
-#~ msgstr "não é possível fazer um commit parcial durante uma sessão de am."
-
-#~ msgid ""
-#~ "cannot do a partial commit while resolving conflicts during a rebase."
-#~ msgstr ""
-#~ "não é possível fazer um commit parcial ao resolver conflitos durante um "
-#~ "rebase."
