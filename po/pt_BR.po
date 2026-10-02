@@ -107,7 +107,7 @@ msgid "could not stage '%s'"
 msgstr "não foi possível preparar '%s'"
 
 msgid "could not write index"
-msgstr "não foi possível escrever o índice"
+msgstr "não foi possível gravar o índice"
 
 #, c-format
 msgid "updated %d path\n"
@@ -167,7 +167,7 @@ msgid "Review diff"
 msgstr "Revisar o diff"
 
 msgid "show paths with changes"
-msgstr "mostrar caminhos com mudanças"
+msgstr "mostrar caminhos com alterações"
 
 msgid "add working tree state to the staged set of changes"
 msgstr ""
@@ -647,7 +647,7 @@ msgstr ""
 "> - ir para o próximo arquivo, recomeçar do início ao atingir o final\n"
 "< - ir para o arquivo anterior, recomeçar do fim ao atingir o início\n"
 "? - imprimir ajuda\n"
-"RESUMO DE PEDAÇOS - Pedaços: %d, USE: %d, SKIP: %d\n"
+"RESUMO DE PEDAÇOS - Pedaços: %d, USAR: %d, PULAR: %d\n"
 
 msgid "'git apply' failed"
 msgstr "'git apply' falhou"
@@ -1580,7 +1580,7 @@ msgid "path:content"
 msgstr "path:content"
 
 msgid "write the archive to this file"
-msgstr "escrever o arquivo compactado neste arquivo"
+msgstr "gravar o arquivo compactado neste arquivo"
 
 msgid "read .gitattributes in working directory"
 msgstr "ler .gitattributes no diretório de trabalho"
@@ -3084,7 +3084,8 @@ msgstr "o branch '%s' não foi totalmente mesclado"
 
 #, c-format
 msgid "If you are sure you want to delete it, run 'git branch -D %s'"
-msgstr "Se você tem certeza que deseja excluí-lo, execute 'git branch -D %s'"
+msgstr ""
+"Se você tem certeza de que deseja excluí-lo, execute 'git branch -D %s'"
 
 msgid "update of config-file failed"
 msgstr "falha ao atualizar o arquivo de configuração"
@@ -3112,7 +3113,7 @@ msgid ""
 "Did you forget --remote?"
 msgstr ""
 "branch '%s' não encontrado.\n"
-"Você esqueceu da opção --remote?"
+"Você esqueceu a opção --remote?"
 
 #, c-format
 msgid "branch '%s' not found"
@@ -3878,7 +3879,7 @@ msgid "read list of paths from the standard input"
 msgstr "ler lista de caminhos da entrada padrão"
 
 msgid "write the content to temporary files"
-msgstr "escrever o conteúdo em arquivos temporários"
+msgstr "gravar o conteúdo em arquivos temporários"
 
 msgid "copy out the files from named stage"
 msgstr "copiar os arquivos do stage nomeado"
@@ -4882,7 +4883,7 @@ msgid "enable computation for changed paths"
 msgstr "habilitar computação para caminhos modificados"
 
 msgid "allow writing an incremental commit-graph file"
-msgstr "permitir a escrita de um arquivo commit-graph incremental"
+msgstr "permitir a gravação de um arquivo commit-graph incremental"
 
 msgid "maximum number of commits in a non-base split commit-graph"
 msgstr "número máximo de commits em um commit-graph dividido não-base"
@@ -4981,7 +4982,7 @@ msgid ""
 "it empty. You can repeat your command with --allow-empty, or you can\n"
 "remove the commit entirely with \"git reset HEAD^\".\n"
 msgstr ""
-"Você pediu para fazer um amend no commit mais recente, mas fazer isso o "
+"Você pediu para fazer amend do commit mais recente, mas fazer isso o "
 "tornaria\n"
 "vazio. Você pode repetir o seu comando com --allow-empty, ou você pode\n"
 "remover o commit inteiramente com \"git reset HEAD^\".\n"
@@ -5454,7 +5455,7 @@ msgid ""
 "new index file. Check that disk is not full and quota is\n"
 "not exceeded, and then \"git restore --staged :/\" to recover."
 msgstr ""
-"o repositório foi atualizado, mas não foi possível escrever\n"
+"o repositório foi atualizado, mas não foi possível gravar\n"
 "o novo arquivo de índice. Verifique se o disco não está cheio e se a cota\n"
 "não foi excedida e, em seguida, execute \"git restore --staged :/\" para "
 "recuperar."
@@ -5638,7 +5639,7 @@ msgid "writing to stdin is not supported"
 msgstr "não há suporte para escrita na entrada padrão"
 
 msgid "writing config blobs is not supported"
-msgstr "não há suporte para escrever blobs de configuração"
+msgstr "não há suporte para gravar blobs de configuração"
 
 #, c-format
 msgid ""
@@ -7369,7 +7370,7 @@ msgid "check for forced-updates on all updated branches"
 msgstr "verificar atualizações forçadas em todos os branches atualizados"
 
 msgid "write the commit-graph after fetching"
-msgstr "escrever o commit-graph após o fetch"
+msgstr "gravar o commit-graph após o fetch"
 
 msgid "accept refspecs from stdin"
 msgstr "aceitar refspecs do stdin"
@@ -7678,7 +7679,7 @@ msgid "enable more strict checking"
 msgstr "ativar verificação mais rigorosa"
 
 msgid "write dangling objects in .git/lost-found"
-msgstr "escrever objetos dangling em .git/lost-found"
+msgstr "gravar objetos dangling em .git/lost-found"
 
 msgid "show progress"
 msgstr "exibir progresso"
@@ -7901,7 +7902,7 @@ msgid "failed to finish 'git pack-objects' process"
 msgstr "falha ao finalizar o processo 'git pack-objects'"
 
 msgid "failed to write multi-pack-index"
-msgstr "falha ao escrever o multi-pack-index"
+msgstr "falha ao gravar o multi-pack-index"
 
 msgid "'git multi-pack-index expire' failed"
 msgstr "'git multi-pack-index expire' falhou"
@@ -8866,7 +8867,7 @@ msgstr "não é possível gravar o arquivo %s '%s'"
 
 #, c-format
 msgid "cannot close written %s file '%s'"
-msgstr "não é possível fechar o arquivo %s escrito '%s'"
+msgstr "não é possível fechar o arquivo %s gravado '%s'"
 
 #, c-format
 msgid "unable to rename temporary '*.%s' file to '%s'"
@@ -9399,11 +9400,11 @@ msgstr "mostrar o progresso ao gerar patches"
 
 msgid "show changes against <rev> in cover letter or single patch"
 msgstr ""
-"mostrar mudanças em relação a <rev> na carta de apresentação ou patch único"
+"mostrar alterações em relação a <rev> na carta de apresentação ou patch único"
 
 msgid "show changes against <refspec> in cover letter or single patch"
 msgstr ""
-"mostrar mudanças em relação a <refspec> na carta de apresentação ou patch "
+"mostrar alterações em relação a <refspec> na carta de apresentação ou patch "
 "único"
 
 msgid "percentage by which creation is weighted"
@@ -9946,7 +9947,7 @@ msgid "Bad branch.%s.mergeoptions string: %s"
 msgstr "String branch.%s.mergeoptions inválida: %s"
 
 msgid "Unable to write index."
-msgstr "Não foi possível escrever o índice."
+msgstr "Não foi possível gravar o índice."
 
 msgid "Not handling anything other than two heads merge."
 msgstr "Não estamos lidando com nada além de um merge de dois heads."
@@ -10800,11 +10801,11 @@ msgstr "objeto esperado no deslocamento %<PRIuMAX> no pack %s"
 
 msgid "disabling bitmap writing, packs are split due to pack.packSizeLimit"
 msgstr ""
-"desativando a escrita de bitmap, os packs estão divididos devido a "
+"desativando a gravação de bitmap, os packs estão divididos devido a "
 "pack.packSizeLimit"
 
 msgid "Writing objects"
-msgstr "Escrevendo objetos"
+msgstr "Gravando objetos"
 
 #, c-format
 msgid "failed to stat %s"
@@ -10819,11 +10820,11 @@ msgstr "falha ao gravar o índice de bitmap"
 
 #, c-format
 msgid "wrote %<PRIu32> objects while expecting %<PRIu32>"
-msgstr "escritos %<PRIu32> objetos quando esperado %<PRIu32>"
+msgstr "gravados %<PRIu32> objetos quando esperado %<PRIu32>"
 
 msgid "disabling bitmap writing, as some objects are not being packed"
 msgstr ""
-"desativando a escrita de bitmap, já que alguns objetos não estão sendo "
+"desativando a gravação de bitmap, já que alguns objetos não estão sendo "
 "empacotados"
 
 #, c-format
@@ -10989,7 +10990,7 @@ msgid "bad index version '%s'"
 msgstr "versão de índice inválida '%s'"
 
 msgid "show progress meter during object writing phase"
-msgstr "exibir o medidor de progresso durante a fase de escrita de objetos"
+msgstr "exibir o medidor de progresso durante a fase de gravação de objetos"
 
 msgid "similar to --all-progress when progress meter is shown"
 msgstr "semelhante a --all-progress quando o medidor de progresso é exibido"
@@ -10999,7 +11000,7 @@ msgstr "<version>[,<offset>]"
 
 msgid "write the pack index file in the specified idx format version"
 msgstr ""
-"escrever o arquivo de índice do pack na versão de formato idx especificada"
+"gravar o arquivo de índice do pack na versão de formato idx especificada"
 
 msgid "ignore borrowed objects from alternate object store"
 msgstr "ignorar objetos emprestados de armazenamentos de objetos alternativos"
@@ -11099,10 +11100,10 @@ msgstr ""
 "usar um índice bitmap, se disponível, para acelerar a contagem de objetos"
 
 msgid "write a bitmap index together with the pack index"
-msgstr "escrever um índice bitmap junto com o índice do pack"
+msgstr "gravar um índice bitmap junto com o índice do pack"
 
 msgid "write a bitmap index if possible"
-msgstr "escrever um índice de bitmap se possível"
+msgstr "gravar um índice de bitmap se possível"
 
 msgid "handling for missing objects"
 msgstr "tratamento de objetos ausentes"
@@ -11314,7 +11315,7 @@ msgid "Options related to merging"
 msgstr "Opções relacionadas a merge"
 
 msgid "incorporate changes by rebasing rather than merging"
-msgstr "incorporar as mudanças por rebase em vez de merge"
+msgstr "incorporar as alterações por rebase em vez de merge"
 
 msgid "allow fast-forward"
 msgstr "permitir fast-forward"
@@ -11341,7 +11342,8 @@ msgid "use IPv6 addresses only"
 msgstr "usar apenas endereços IPv6"
 
 msgid "Updating an unborn branch with changes added to the index."
-msgstr "Atualizando um branch não nascido com mudanças adicionadas ao índice."
+msgstr ""
+"Atualizando um branch não nascido com alterações adicionadas ao índice."
 
 msgid "pull with rebase"
 msgstr "fazer pull com rebase"
@@ -11385,7 +11387,7 @@ msgid "Cannot fast-forward to multiple branches."
 msgstr "Não é possível fazer o fast-forward para múltiplos branches."
 
 msgid "Need to specify how to reconcile divergent branches."
-msgstr "Necessário especificar como reconciliar branches divergentes."
+msgstr "É necessário especificar como reconciliar branches divergentes."
 
 msgid "cannot rebase with locally recorded submodule modifications"
 msgstr ""
@@ -11766,7 +11768,7 @@ msgstr ""
 "              (--empty | <tree-ish1> [<tree-ish2> [<tree-ish3>]])"
 
 msgid "write resulting index to <file>"
-msgstr "escrever o índice resultante em <file>"
+msgstr "gravar o índice resultante em <file>"
 
 msgid "only empty the index"
 msgstr "apenas esvaziar o índice"
@@ -11986,7 +11988,7 @@ msgid "passed to 'git apply'"
 msgstr "passado para 'git apply'"
 
 msgid "ignore changes in whitespace"
-msgstr "ignorar mudanças em espaços em branco"
+msgstr "ignorar alterações em espaços em branco"
 
 msgid "cherry-pick all commits, even if unchanged"
 msgstr "fazer cherry-pick de todos os commits, mesmo se não modificados"
@@ -12202,7 +12204,7 @@ msgstr "Alterações em %s:\n"
 
 #, c-format
 msgid "Changes from %s to %s:\n"
-msgstr "Mudanças de %s para %s:\n"
+msgstr "Alterações de %s para %s:\n"
 
 #, c-format
 msgid "First, rewinding head to replay your work on top of it...\n"
@@ -13058,7 +13060,7 @@ msgid "pass --local to git-pack-objects"
 msgstr "passar --local para o git-pack-objects"
 
 msgid "write bitmap index"
-msgstr "escrever índice de bitmap"
+msgstr "gravar índice de bitmap"
 
 msgid "pass --delta-islands to git-pack-objects"
 msgstr "passar --delta-islands para o git-pack-objects"
@@ -13099,7 +13101,7 @@ msgid "find a geometric progression with factor <N>"
 msgstr "encontrar uma progressão geométrica com fator <N>"
 
 msgid "write a multi-pack index of the resulting packs"
-msgstr "escrever um multi-pack index dos packs resultantes"
+msgstr "gravar um multi-pack index dos packs resultantes"
 
 msgid "pack prefix to store a pack containing filtered out objects"
 msgstr "prefixo de pack para armazenar um pack contendo objetos filtrados"
@@ -13316,7 +13318,7 @@ msgid "--format cannot be used when not listing"
 msgstr "--format não pode ser usado quando não se está listando"
 
 msgid "-f only makes sense when writing a replacement"
-msgstr "-f só faz sentido ao escrever uma substituição"
+msgstr "-f só faz sentido ao gravar uma substituição"
 
 msgid "--raw only makes sense with --edit"
 msgstr "--raw só faz sentido com --edit"
@@ -14836,8 +14838,8 @@ msgstr "Registro do submódulo '%s' (%s) cancelado para o caminho '%s'\n"
 
 msgid "remove submodule working trees even if they contain local changes"
 msgstr ""
-"remover árvores de trabalho de submódulos mesmo se elas contiverem mudanças "
-"locais"
+"remover árvores de trabalho de submódulos mesmo se elas contiverem "
+"alterações locais"
 
 msgid "unregister all submodules"
 msgstr "cancelar o registro de todos os submódulos"
@@ -15564,7 +15566,7 @@ msgid "(for porcelains) forget saved unresolved conflicts"
 msgstr "(para comandos porcelain) esquece os conflitos não resolvidos salvos"
 
 msgid "write index in this format"
-msgstr "escrever o índice neste formato"
+msgstr "gravar o índice neste formato"
 
 msgid "report on-disk index format version"
 msgstr "relatar versão do formato do índice em disco"
@@ -15582,7 +15584,7 @@ msgid "enable untracked cache without testing the filesystem"
 msgstr "habilitar o cache de não rastreados sem testar o sistema de arquivos"
 
 msgid "write out the index even if is not flagged as changed"
-msgstr "escrever o índice mesmo se não estiver marcado como modificado"
+msgstr "gravar o índice mesmo se não estiver marcado como modificado"
 
 msgid "enable or disable file system monitor"
 msgstr "habilitar ou desabilitar o monitor do sistema de arquivos"
@@ -16061,7 +16063,7 @@ msgid "<prefix>/"
 msgstr "<prefix>/"
 
 msgid "write tree object for a subdirectory <prefix>"
-msgstr "escrever objeto tree para um subdiretório <prefix>"
+msgstr "gravar objeto tree para um subdiretório <prefix>"
 
 msgid "only useful for debugging"
 msgstr "útil apenas para depuração"
@@ -16200,7 +16202,7 @@ msgstr "versão de bundle %d não suportada"
 
 #, c-format
 msgid "cannot write bundle version %d with algorithm %s"
-msgstr "não é possível escrever a versão do bundle %d com algoritmo %s"
+msgstr "não é possível gravar a versão do bundle %d com algoritmo %s"
 
 msgid "Refusing to create empty bundle."
 msgstr "Recusando-se a criar um bundle vazio."
@@ -16339,7 +16341,7 @@ msgid "Record changes to the repository"
 msgstr "Registre alterações no repositório"
 
 msgid "Write and verify Git commit-graph files"
-msgstr "Escreva e verifique arquivos commit-graph do Git"
+msgstr "Grave e verifique arquivos commit-graph do Git"
 
 msgid "Create a new commit object"
 msgstr "Crie um novo objeto de commit"
@@ -16401,7 +16403,7 @@ msgid "Git data exporter"
 msgstr "Exportador de dados do Git"
 
 msgid "Backend for fast Git data importers"
-msgstr "Back-end para importadores rápidos de dados do Git"
+msgstr "Backend para importadores rápidos de dados do Git"
 
 msgid "Download objects and refs from another repository"
 msgstr "Baixe objetos e refs de outro repositório"
@@ -16536,7 +16538,7 @@ msgid "Build a tree-object from ls-tree formatted text"
 msgstr "Construa um objeto tree a partir de texto formatado pelo ls-tree"
 
 msgid "Write and verify multi-pack-indexes"
-msgstr "Escreva e verifique multi-pack-indexes"
+msgstr "Grave e verifique multi-pack-indexes"
 
 msgid "Move or rename a file, a directory, or a symlink"
 msgstr "Mova ou renomeie um arquivo, um diretório ou um link simbólico"
@@ -16994,7 +16996,7 @@ msgid "Finding extra edges in commit graph"
 msgstr "Encontrando bordas extras no commit graph"
 
 msgid "failed to write correct number of base graph ids"
-msgstr "falha ao escrever o número correto de IDs de base graph"
+msgstr "falha ao gravar o número correto de IDs de base graph"
 
 msgid "unable to create temporary graph layer"
 msgstr "não foi possível criar a camada de grafo temporária"
@@ -17006,8 +17008,8 @@ msgstr "não foi possível ajustar as permissões compartilhadas de '%s'"
 #, c-format
 msgid "Writing out commit graph in %d pass"
 msgid_plural "Writing out commit graph in %d passes"
-msgstr[0] "Escrevendo o commit graph em %d passagem"
-msgstr[1] "Escrevendo o commit graph em %d passagens"
+msgstr[0] "Gravando o commit graph em %d passagem"
+msgstr[1] "Gravando o commit graph em %d passagens"
 
 msgid "unable to open commit-graph chain file"
 msgstr "não foi possível abrir o arquivo de cadeia do commit-graph"
@@ -17170,7 +17172,8 @@ msgid ""
 "variable i18n.commitEncoding to the encoding your project uses.\n"
 msgstr ""
 "Aviso: a mensagem do commit não estava em conformidade com UTF-8.\n"
-"Você pode querer alterá-la após corrigir a mensagem, ou definir a\n"
+"Você pode querer fazer amend do commit após corrigir a mensagem, ou definir "
+"a\n"
 "variável de configuração i18n.commitEncoding para a codificação que seu "
 "projeto usa.\n"
 
@@ -20004,7 +20007,8 @@ msgid ""
 "   or update to an existing commit which has merged those changes\n"
 msgstr ""
 " - vá para o submódulo (%s) e faça merge do commit %s\n"
-"   ou atualize para um commit existente que já fez o merge dessas mudanças\n"
+"   ou atualize para um commit existente que já fez o merge dessas "
+"alterações\n"
 
 #, c-format
 msgid ""
@@ -21812,7 +21816,7 @@ msgid "broken index, expect %s in %s, got %s"
 msgstr "índice quebrado, esperava %s em %s, obteve %s"
 
 msgid "cannot write split index for a sparse index"
-msgstr "não é possível escrever o índice dividido para um índice esparso"
+msgstr "não é possível gravar o índice dividido para um índice esparso"
 
 msgid "failed to convert to a sparse-index"
 msgstr "falha ao converter para um sparse-index"
@@ -21891,7 +21895,7 @@ msgstr ""
 "Comandos:\n"
 "p, pick <commit> = usar o commit\n"
 "r, reword <commit> = usar o commit, mas editar a mensagem do commit\n"
-"e, edit <commit> = usar o commit, mas parar para alteração (amend)\n"
+"e, edit <commit> = usar o commit, mas parar para fazer amend\n"
 "s, squash <commit> = usar o commit, mas mesclar com o commit anterior\n"
 "f, fixup [-C | -c] <commit> = como \"squash\", mas manter apenas a mensagem "
 "de log\n"
@@ -22322,7 +22326,7 @@ msgstr "tentando gravar a ref '%s' com objeto inexistente %s"
 
 #, c-format
 msgid "trying to write non-commit object %s to branch '%s'"
-msgstr "tentando escrever o objeto não-commit %s no branch '%s'"
+msgstr "tentando gravar o objeto não-commit %s no branch '%s'"
 
 #, c-format
 msgid "update_ref failed for ref '%s': %s"
@@ -22395,7 +22399,7 @@ msgstr ""
 
 #, c-format
 msgid "trying to write reflog for '%s' with incomplete values"
-msgstr "tentando escrever o reflog para '%s' com valores incompletos"
+msgstr "tentando gravar o reflog para '%s' com valores incompletos"
 
 #, c-format
 msgid "cannot read ref file '%s'"
@@ -23530,7 +23534,7 @@ msgstr "faça commit de suas alterações ou faça um stash delas para prossegui
 #.
 #, c-format
 msgid "%s: Unable to write new index file"
-msgstr "%s: não foi possível escrever o novo arquivo de índice"
+msgstr "%s: não foi possível gravar o novo arquivo de índice"
 
 msgid "unable to update cache tree"
 msgstr "não foi possível atualizar a cache tree"
@@ -23886,7 +23890,7 @@ msgstr "squash-onto inutilizável"
 
 #, c-format
 msgid "malformed options sheet: '%s'"
-msgstr "planilha de opções malformada: '%s'"
+msgstr "folha de opções malformada: '%s'"
 
 msgid "empty commit set passed"
 msgstr "conjunto de commits vazio passado"
@@ -23916,7 +23920,7 @@ msgid "cannot resolve HEAD"
 msgstr "não é possível resolver o HEAD"
 
 msgid "cannot abort from a branch yet to be born"
-msgstr "não é possível abortar a partir de um branch ainda não criado"
+msgstr "não é possível abortar a partir de um branch ainda não nascido"
 
 #, c-format
 msgid "cannot read '%s': %s"
@@ -23968,7 +23972,7 @@ msgid ""
 "\n"
 "  git rebase --continue\n"
 msgstr ""
-"Você pode alterar o commit agora, com\n"
+"Você pode fazer amend do commit agora, com\n"
 "\n"
 "  git commit --amend %s\n"
 "\n"
@@ -24026,10 +24030,10 @@ msgid "illegal label name: '%.*s'"
 msgstr "nome de rótulo ilegal: '%.*s'"
 
 msgid "writing fake root commit"
-msgstr "escrevendo commit raiz falso"
+msgstr "gravando commit raiz falso"
 
 msgid "writing squash-onto"
-msgstr "escrevendo squash-onto"
+msgstr "gravando squash-onto"
 
 msgid "cannot merge without a current revision"
 msgstr "não é possível fazer merge sem uma revisão atual"
@@ -24054,7 +24058,7 @@ msgid "could not even attempt to merge '%.*s'"
 msgstr "não foi possível sequer tentar fazer merge de '%.*s'"
 
 msgid "merge: Unable to write new index file"
-msgstr "merge: não foi possível escrever o novo arquivo de índice"
+msgstr "merge: não foi possível gravar o novo arquivo de índice"
 
 #, c-format
 msgid ""
@@ -24825,7 +24829,7 @@ msgid "number of entries in the cache tree to invalidate (default 0)"
 msgstr "número de entradas na cache tree para invalidar (padrão 0)"
 
 msgid "the number of objects to write"
-msgstr "o número de objetos para escrever"
+msgstr "o número de objetos para gravar"
 
 msgid "test-tool path-walk <options> -- <revision-options>"
 msgstr "test-tool path-walk <options> -- <revision-options>"
@@ -24927,7 +24931,7 @@ msgid "command token to send to the server"
 msgstr "token de comando para enviar ao servidor"
 
 msgid "write a pack with a single reachable large blob"
-msgstr "escrever um pack com um único blob grande alcançável"
+msgstr "gravar um pack com um único blob grande alcançável"
 
 #, c-format
 msgid "'%s' is not a valid blob size"
@@ -25731,10 +25735,10 @@ msgid "  (use \"git rm <file>...\" to mark resolution)"
 msgstr "  (use \"git rm <file>...\" para marcar a resolução)"
 
 msgid "Changes to be committed:"
-msgstr "Mudanças a serem commitadas:"
+msgstr "Alterações a serem commitadas:"
 
 msgid "Changes not staged for commit:"
-msgstr "Mudanças não preparadas para commit:"
+msgstr "Alterações não preparadas para commit:"
 
 msgid "  (use \"git add <file>...\" to update what will be committed)"
 msgstr "  (use \"git add <file>...\" para atualizar o que será commitado)"
@@ -25794,7 +25798,7 @@ msgid "renamed:"
 msgstr "renomeado:"
 
 msgid "typechange:"
-msgstr "mudança de tipo:"
+msgstr "alteração de tipo:"
 
 msgid "unknown:"
 msgstr "desconhecido:"
@@ -25821,7 +25825,7 @@ msgid "Submodules changed but not updated:"
 msgstr "Submódulos alterados, mas não atualizados:"
 
 msgid "Submodule changes to be committed:"
-msgstr "Mudanças no submódulo a serem commitadas:"
+msgstr "Alterações no submódulo a serem commitadas:"
 
 msgid ""
 "Do not modify or remove the line above.\n"
@@ -25948,7 +25952,7 @@ msgid "You are currently editing a commit during a rebase."
 msgstr "Você está editando um commit durante um rebase."
 
 msgid "  (use \"git commit --amend\" to amend the current commit)"
-msgstr "  (use \"git commit --amend\" para alterar o commit atual)"
+msgstr "  (use \"git commit --amend\" para fazer amend do commit atual)"
 
 msgid ""
 "  (use \"git rebase --continue\" once you are satisfied with your changes)"
