@@ -3975,7 +3975,7 @@ msgstr "não foi possível atualizar o HEAD"
 
 #, c-format
 msgid "Reset branch '%s'\n"
-msgstr "Redefinir o branch '%s'\n"
+msgstr "Branch '%s' redefinido\n"
 
 #, c-format
 msgid "Already on '%s'\n"
@@ -4197,10 +4197,10 @@ msgstr "'%s' não pode receber <start-point>"
 
 #, c-format
 msgid "Cannot switch branch to a non-commit '%s'"
-msgstr "Não é possível mudar o branch para um '%s' sem commit"
+msgstr "Não é possível mudar o branch para '%s', que não é um commit"
 
 msgid "missing branch or commit argument"
-msgstr "branch ausente ou argumento de commit"
+msgstr "argumento de branch ou commit ausente"
 
 #, c-format
 msgid "unknown conflict style '%s'"
@@ -4301,7 +4301,7 @@ msgid "create reflog for new branch"
 msgstr "criar reflog para nova branch"
 
 msgid "second guess 'git checkout <no-such-branch>' (default)"
-msgstr "segundo palpite 'git checkout <no-such-branch>' (padrão)"
+msgstr "tentar adivinhar em 'git checkout <no-such-branch>' (padrão)"
 
 msgid "use overlay mode (default)"
 msgstr "usar o modo de sobreposição (padrão)"
@@ -4313,7 +4313,7 @@ msgid "create/reset and switch to a branch"
 msgstr "criar/redefinir e mudar para um branch"
 
 msgid "second guess 'git switch <no-such-branch>'"
-msgstr "segundo palpite 'git switch <no-such-branch>'"
+msgstr "tentar adivinhar em 'git switch <no-such-branch>'"
 
 msgid "throw away local modifications"
 msgstr "descartar as modificações locais"
@@ -4659,7 +4659,7 @@ msgid "server-specific"
 msgstr "específico do servidor"
 
 msgid "option to transmit"
-msgstr "opção de transmitir"
+msgstr "opção a ser transmitida"
 
 msgid "apply partial clone filters to submodules"
 msgstr "aplicar filtros de clone parcial a submódulos"
@@ -5034,7 +5034,7 @@ msgid "failed to unpack HEAD tree object"
 msgstr "falha ao descompactar o objeto tree de HEAD"
 
 msgid "No paths with --include/--only does not make sense."
-msgstr "Nenhum caminho com --include/--only não faz sentido."
+msgstr "--include/--only sem caminhos não faz sentido."
 
 msgid "unable to create temporary index"
 msgstr "não foi possível criar o índice temporário"
@@ -9779,7 +9779,7 @@ msgid "could not parse as tree '%s'"
 msgstr "não foi possível analisar '%s' como uma tree"
 
 msgid "not something we can merge"
-msgstr "não é algo que possamos fazer o merge"
+msgstr "não é algo com que possamos fazer merge"
 
 msgid "refusing to merge unrelated histories"
 msgstr "recusando-se a fazer merge de históricos não relacionados"
@@ -10021,7 +10021,7 @@ msgstr "não foi possível fechar '%s'"
 
 #, c-format
 msgid "not something we can merge in %s: %s"
-msgstr "não é algo que possamos fazer merge em %s: %s"
+msgstr "não é algo com que possamos fazer merge em %s: %s"
 
 msgid "--abort expects no arguments"
 msgstr "--abort não espera argumentos"
@@ -10067,7 +10067,7 @@ msgstr "Um commit non-fast-forward não faz sentido em um head vazio"
 
 #, c-format
 msgid "%s - not something we can merge"
-msgstr "%s - não é algo que possamos fazer merge"
+msgstr "%s - não é algo com que possamos fazer merge"
 
 msgid "Can merge only exactly one commit into empty head"
 msgstr "Só é possível fazer merge de exatamente um commit em um head vazio"
@@ -16363,7 +16363,7 @@ msgid "Export a single commit to a CVS checkout"
 msgstr "Exportar um único commit para um checkout do CVS"
 
 msgid "Salvage your data out of another SCM people love to hate"
-msgstr "Salve seus dados de outro SCM que as pessoas amam odiar"
+msgstr "Resgate seus dados de outro SCM que as pessoas amam odiar"
 
 msgid "A CVS server emulator for Git"
 msgstr "Um emulador de servidor CVS para Git"
@@ -18973,7 +18973,7 @@ msgstr "esperava-se que o packfile fosse enviado após '%s'"
 #.
 #, c-format
 msgid "expected no other sections to be sent after no '%s'"
-msgstr "esperava-se que nenhuma outra seção fosse enviada após nenhum '%s'"
+msgstr "esperava-se que nenhuma outra seção fosse enviada quando não há '%s'"
 
 #, c-format
 msgid "error processing shallow info: %d"
