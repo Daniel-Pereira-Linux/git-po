@@ -7110,7 +7110,7 @@ msgstr "%s não enviou todos os objetos necessários"
 
 #, c-format
 msgid "rejected %s because shallow roots are not allowed to be updated"
-msgstr "rejeitado %s porque shallow roots não podem ser atualizadas"
+msgstr "rejeitado %s porque raízes rasas não podem ser atualizadas"
 
 msgid "[deleted]"
 msgstr "[excluído]"
@@ -22588,7 +22588,7 @@ msgid "%d bytes of body are still expected"
 msgstr "%d bytes do corpo ainda são esperados"
 
 msgid "dumb http transport does not support shallow capabilities"
-msgstr "o transporte dumb http não suporta capacidades shallow"
+msgstr "o transporte dumb http não suporta clones rasos"
 
 msgid "fetch failed."
 msgstr "fetch falhou."
